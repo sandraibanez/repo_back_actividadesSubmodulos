@@ -5,5 +5,5 @@ var exampleSchema = new mongoose.Schema({
 });
 
 var ExampleModel = mongoose.model('Example', exampleSchema);
-console.log(ExampleModel);
+console.log("ExampleModel",ExampleModel);
 module.exports = ExampleModel;
